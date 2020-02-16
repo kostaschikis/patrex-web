@@ -2563,6 +2563,10 @@ h1.org-name {
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
 				}
+/* Logo */
+#logo-image {
+	margin: 0;
+}
 
 /* Image */
 
@@ -3436,6 +3440,13 @@ h1.org-name {
 				padding: 1em 2em;
 			}
 
+			#logo-image {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 1rem;  
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3901,6 +3912,7 @@ h1.org-name {
 
 				#intro p {
 					font-size: 1em;
+					text-align: center;
 				}
 
 			}
