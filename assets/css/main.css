@@ -3247,9 +3247,13 @@ h1.org-name {
 		.wrapper.alt {
 			background-color: #261c3e;
 		}
-
+		
+		.contact-wrapper-style {
+			background-color: #3C4856;
+		}
+		
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #0B2A41;
 		}
 
 		.wrapper.style1-alt {
@@ -3265,9 +3269,9 @@ h1.org-name {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #3E5771; /*#b74e91*/
 		}
-
+		
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
@@ -3540,7 +3544,7 @@ h1.org-name {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background-image:linear-gradient(0deg, #6F5F3B, #375063 50%);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3755,15 +3759,17 @@ h1.org-name {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.7em;
 			font-weight: bold;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.1em;
 			line-height: 1.75;
 			outline: 0;
 			padding: 1.35em 0;
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
+			
+			
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
@@ -3774,17 +3780,23 @@ h1.org-name {
 				position: absolute;
 				right: 0;
 				width: 100%;
+				opacity:100%;
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #A78E59;
+				opacity:50%;
 			}
 
 			#sidebar nav a:after {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				
+				/*background-image: linear-gradient(to right, #0B2A41, #9FACBD 50%);*/
+				
+				background: #9facbd;
+				
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
