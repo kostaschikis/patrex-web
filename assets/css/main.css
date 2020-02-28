@@ -103,7 +103,7 @@ h1.org-name {
 	}
 
 	body {
-		background: #312450;
+		background: #0B2A41;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -202,10 +202,10 @@ h1.org-name {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #3E5771, #7A7256);
+				background-image: -webkit-linear-gradient(to right, #3E5771, #7A7256);
+				background-image: -ms-linear-gradient(to right, #3E5771, #7A7256);
+				background-image: linear-gradient(to right, #3E5771, #7A7256);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3384,7 +3384,7 @@ h1.org-name {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #3E5771;
 		cursor: default;
 		padding: 1.75em 2em;
 	}

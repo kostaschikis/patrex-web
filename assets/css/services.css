@@ -1,4 +1,43 @@
-.sub-service {
-	border-bottom: none;
-	
+.services-column {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+.service-container {
+	margin:0 auto;
+	width: 90%;
+}
+
+.service-title-container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+a {
+    border-bottom: none;
+}
+
+hr,h1 {
+	margin: 0;
+}
+
+h1,h3 {
+	font-family: Calibri;
+}
+
+span {
+	font-family: Calibri-Light;
+}
+
+.service-sub-types-container {
+	width: 90%;
+	margin: 0 auto;
 }

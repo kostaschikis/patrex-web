@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE HTML>
 <!--
 	Hyperspace by HTML5 UP
@@ -10,28 +6,21 @@
 -->
 <html>
 	<head>
-		<title>PatreX</title>
+		<title>PatreX | Main Page</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/services.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!-- Favicon -->
+
+		<style>
+			a {
+				border-bottom: none;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
-			<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#aboutUs">About Us</a></li>
-							<li><a href="#ourServices">Our Services</a></li>
-							<li><a href="#contact">Contact Us</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+			<?php include 'php/sidebar.php'; ?>
 
 			<!-- Wrapper -->
 			<div id="wrapper">
@@ -41,7 +30,7 @@
 						<img id="logo-image" src="assets/css/images/patrex-mini-gold.png" alt="logo">
 						<p>Web Development and Renovation | Social Media Consulting | Data Analytics.</p>
 						<ul class="actions">
-							<li><a href="#one" class="button scrolly">Learn more</a></li>
+							<li><a href="#ourServices" class="button scrolly">Learn more</a></li>
 						</ul>
 					</div>
 				</section>
@@ -104,16 +93,16 @@
 								<h3>Web Development</h3>
 								<ul style="margin: 0 0 3% 5%; list-style-type:circle;">
 									<li>
-										<a href="" class="sub-service">Website Development</a>
+										<a href="php/services.php#wd">Website Development</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">E-commerce Development</a>
+										<a href="php/services.php#ec">E-commerce Development</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Support</a>
+										<a href="php/services.php#supp">Support</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Website Renovation</a>
+										<a href="php/services.php#wr">Website Renovation</a>
 									</li>
 								</ul>
 							</section>
@@ -122,14 +111,14 @@
 								<h3>Digital Marketing</h3>
 								<ul style="margin: 0 0 3% 5%; list-style-type:circle;">
 									<li>
-										<a href="" class="sub-service">Social Media</a>
+										<a href="php/services.php#sm">Social Media</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">SEO</a>
+										<a href="php/services.php#seo">SEO</a>
 									</li>
-									<li>
-										<a href="" class="sub-service">CRM</a>
-									</li>
+									<!-- <li>
+										<a href="php/services.php#seo">CRM</a>
+									</li> -->
 								</ul>
 							</section>
 							<section>
@@ -137,13 +126,13 @@
 								<h3>Digital Consulting</h3>
 								<ul style="margin: 0 0 3% 5%; list-style-type:circle;">
 									<li>
-										<a href="" class="sub-service">Digital Strategy</a>
+										<a href="php/services.php#ds">Digital Strategy</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Company Coaching</a>
+										<a href="php/services.php#cc">Company Coaching</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Innovative Solutions</a>
+										<a href="php/services.php#is">Innovative Solutions</a>
 									</li>
 								</ul>
 							</section>
@@ -152,13 +141,13 @@
 								<h3>Branding</h3>
 								<ul style="margin: 0 0 3% 5%; list-style-type:circle;">
 									<li>
-										<a href="" class="sub-service">Logo and Corporate Identity Design</a>
+										<a href="php/services.php#lcid">Logo and Corporate Identity Design</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Package Design</a>
+										<a href="php/services.php#pcsm">Package Creation for Social Media</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Brochures Design</a>
+										<a href="php/services.php#bddb">Brochure Design and Display Banners</a>
 									</li>
 								</ul>
 							</section>
@@ -167,13 +156,13 @@
 								<h3>Tech Consulting</h3>
 								<ul style="margin: 0 0 3% 5%; list-style-type:circle;">
 									<li>
-										<a href="" class="sub-service">Web Usage Consulting Course</a>
+										<a href="php/services.php#wucc">Web Usage Consulting Course</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Technology Usage Tricks Course</a>
+										<a href="php/services.php#tutc">Technology Usage Tricks Course</a>
 									</li>
 									<li>
-										<a href="" class="sub-service">Safe Internet Browsing Course</a>
+										<a href="php/services.php#sibc">Safe Internet Browsing Course</a>
 									</li>
 								</ul>
 							</section>
@@ -182,13 +171,13 @@
 								<h3>Strategic Analysis</h3>
 								<ul style="margin: 0 0 3% 5%; list-style-type:circle;">
 									<li>
-										<a href="" class="sub-service">Google Analytics</a>
+										<a href="php/services.php#ga">Google Analytics</a>
 									</li>
 								</ul>
 							</section>
 						</div>
 						<ul class="actions">
-							<li><a href="generic.html" class="button">Learn more</a></li>
+							<li><a href="php/services.php" class="button">Learn more</a></li>
 						</ul>
 					</div>
 				</section>
@@ -216,18 +205,12 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
+										<li><a href="php/services.php" class="button submit">Send Message</a></li>
 									</ul>
 								</form>
 							</section>
 							<section>
 								<ul class="contact">
-									<!--li>
-										<h3>Address</h3>
-										<span>12345 Somewhere Road #654<br />
-										Nashville, TN 00000-0000<br />
-										USA</span>
-									</li-->
 									<li>
 										<h3>Email</h3>
 										<p>patrex-official@gmail.com</p>
