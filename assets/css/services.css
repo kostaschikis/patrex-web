@@ -29,12 +29,9 @@ hr,h1 {
 	margin: 0;
 }
 
-h1,h3 {
-	font-family: Calibri;
-}
-
 span {
-	font-family: Calibri-Light;
+	color: rgba(255, 255, 255, 0.55);
+	/* font-family: Calibri-Light; */
 }
 
 .service-sub-types-container {
