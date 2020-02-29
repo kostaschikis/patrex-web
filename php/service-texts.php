@@ -46,5 +46,36 @@
 
     const T_BROCHURE_DESIGN = "A thoughtful and stylish design of banners positively affects the user’s psychology and increases visits to your website. Moreover, we create extraordinary designs for your company's brochures that every competitor would be jealous of.";
 
+    const T_WEB_USAGE_COURSE = "Over the last few years, more and more people are getting into technology. Its impact is large on our daily lives. The Web is by far the most used feature that technology offers.<br />You may be lost when you get into something new, such as the Web's world. All of us need a helping hand so we won't get lost in the unknown. PatreX is the helping hand for you. We are doing step-by-step lessons on the Web. We are friendly, patient and willing to teach. We reinforce face-to-face lessons because, scientificly proven, students can organize their thoughts more efficiently than in cases of non face-to-face lessons. Also human interaction can be really helpful into better understanding of the topic. The target audience can vary to any age. More specifically, the lessons are related to:<br />
+        <ul style='width: 90%;margin:0 auto;list-style-type:circle;'>
+            <li>
+                Efficient web usage.
+            </li>
+            <li>
+                Shortcut tricks that will save you some time from doing boring tasks over and over again.
+            </li>
+            <li>
+                Advices on how to complete tasks of your daily work online
+            </li>
+        </ul>
+        We are open to answer any questions of yours as well!";
+
+    const T_DIY_COURSE = "We live in the era of technology so people's adjustment in this era is important. Computers make up a significant impact on our lives and a huge number of houses has at least one computer today. Again just like the web, people might get lost into the big world of computers, so a helping hand is necessary to guide you through. We carry out step-by-step lessons on how to use the computer for basic things and how you can digitalize some of your tasks to save time and space. We can help you adjust very easily to the era of technology and answer any questions you have about computers.<br />Nevertheless, the ultimate goal of this course is to teach you how to be independent in the world of technology. We promote the DIY (Do-It-Yourself) method. Our task is to make you be able to solve any problem you face, having Google as your only assistant.";
+
+    const T_SAFE_WEB_COURSE = "As internet is getting more into our lives, conscious and sane use of the internet is significant. Many dangers exist on the Internet and most importantly, usually they are hidden. Being aware of these dangers can keep you safe from falling into traps set by malicious users. We are here for you to offer all the important information on how to be safe on the internet. More specifically, we are willing to inform you how to fulfil the things below safer:<br />
+        <ul style='width: 90%;margin:0 auto;list-style-type:circle;'>
+            <li>
+                Efficient web usage.
+            </li>
+            <li>
+                Shortcut tricks that will save you some time from doing boring tasks over and over again.
+            </li>
+            <li>
+                Advices on how to complete tasks of your daily work online
+            </li>
+        </ul>
+        and much more ...<br />
+        Of course we are here for you to answer any question you have!";
+
     const T_GOOGLE_ANALYTICS = "We offer a custom google analytics set up for our client’s company. After building web pages, we analyze their performance through analysis and reporting of demographics and visitor behavior while browsing. This helps you better understand your audience and improve your services.";
 ?>

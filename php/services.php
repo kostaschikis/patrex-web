@@ -6,7 +6,7 @@
 
 <html>
     <head>
-        <title>PatreX | Services</title>
+        <title>PatreX - Services</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="/assets/css/main.css"/>
@@ -170,20 +170,20 @@
                             <p id="wucc">
                                 <h3 id="wucc">-&emsp;Web Usage Consulting Course</h3>
                                 <div>
-                                    <span>TEST</span>
+                                    <span><?php echo T_WEB_USAGE_COURSE; ?></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="tutc">
-                                <h3  id="tutc">-&emsp;Technology Usage Tricks Course</h3>
+                                <h3 id="tutc">-&emsp;Computer Basics (DIY) Course</h3>
                                 <div>
-                                    <span>TEST</span>
+                                    <span><?php echo T_DIY_COURSE; ?></span>
                                 </div>
                             </p>
                             <p id="sibc">
                                 <h3 id="sibc">-&emsp;Safe Internet Browsing Course</h3>
                                 <div>
-                                    <span>TEST</span>
+                                    <span><?php echo T_SAFE_WEB_COURSE; ?></span>
                                 </div>
                             </p>
                         </div>
