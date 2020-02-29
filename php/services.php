@@ -9,8 +9,10 @@
         <title>PatreX | Services</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="../assets/css/main.css" />
-        <link rel="stylesheet" href="../assets/css/services.css">
+        <link rel="stylesheet" href="/assets/css/main.css"/>
+        <link rel="stylesheet" href="/assets/css/services.css">
+        <script defer src="/assets/js/jquery.min.js"></script>
+        <script defer src="/assets/js/blink.js"></script>
         <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
     </head>
 
@@ -40,24 +42,24 @@
                         <div class="service-sub-types-container">
                             <!-- SUB TYPE 1 CONTAINER -->
                             <p id="wd">
-                                <h3>-&emsp;Website Development</h3>
+                                <h3 id="wd">-&emsp;Website Development</h3>
                                 <div>
                                     <span><?php echo T_WEB_DEV; ?></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="ec">
-                                <h3>-&emsp;E-Commerce Development</h3>
+                                <h3 id="ec">-&emsp;E-Commerce Development</h3>
                                 <span><?php echo T_ESHOP; ?></span>
                             </p>
                             <p id="supp">
-                                <h3>-&emsp;Support</h3>
+                                <h3 id="supp">-&emsp;Support</h3>
                                 <div>
                                     <span><?php echo T_SUPPORT; ?></span>
                                 </div>
                             </p>
                             <p id="wr">
-                                <h3>-&emsp;Website Renovation</h3>
+                                <h3 id="wr">-&emsp;Website Renovation</h3>
                                 <div>
                                     <span><?php echo T_WEB_RENOVATION; ?></span>
                                 </div>
@@ -76,14 +78,14 @@
                         <div class="service-sub-types-container">
                             <!-- SUB TYPE 1 CONTAINER -->
                             <p id="sm">
-                                <h3>-&emsp;Social Media</h3>
+                                <h3 id="sm">-&emsp;Social Media</h3>
                                 <div>
                                     <span><?php echo T_SOCIAL_MEDIA; ?></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="seo">
-                                <h3>-&emsp;SEO</h3>
+                                <h3 id="seo">-&emsp;SEO</h3>
                                 <div>
                                     <span><?php echo T_SEO; ?></span>
                                 </div>
@@ -102,20 +104,20 @@
                         <div class="service-sub-types-container">
                             <!-- SUB TYPE 1 CONTAINER -->
                             <p id="ds">
-                                <h3>-&emsp;Digital Strategy</h3>
+                                <h3 id="ds">-&emsp;Digital Strategy</h3>
                                 <div>
                                     <span><?php echo T_DIGITAL_CONSULTING; ?></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="cc">
-                                <h3>-&emsp;Company Coaching</h3>
+                                <h3 id="cc">-&emsp;Company Coaching</h3>
                                 <div>
                                     <span><?php echo T_COMPANY_COACHING; ?></span>
                                 </div>
                             </p>
                             <p id="is">
-                                <h3>-&emsp;Innovative Solutions</h3>
+                                <h3 id="is">-&emsp;Innovative Solutions</h3>
                                 <div>
                                     <span><?php echo T_INNOVATIVE_SOLUTIONS; ?></span>
                                 </div>
@@ -135,20 +137,20 @@
                         <div class="service-sub-types-container">
                             <!-- SUB TYPE 1 CONTAINER -->
                             <p id="lcid">
-                                <h3>-&emsp;Logo and Corporate Identity Design</h3>
+                                <h3 id="lcid">-&emsp;Logo and Corporate Identity Design</h3>
                                 <div>
                                     <span><?php echo T_LOGO_DESIGN; ?></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="pcsm">
-                                <h3>-&emsp;Package Creation for Social Media</h3>
+                                <h3 id="pcsm">-&emsp;Package Creation for Social Media</h3>
                                 <div>
                                     <span><?php echo T_PACKAGE_CREATION; ?></span>
                                 </div>
                             </p>
                             <p id="bddb">
-                                <h3>-&emsp;Brochure Design and Display Banners</h3>
+                                <h3 id="bddb">-&emsp;Brochure Design and Display Banners</h3>
                                 <div>
                                     <span><?php echo T_BROCHURE_DESIGN; ?></span>
                                 </div>
@@ -166,20 +168,20 @@
                         <div class="service-sub-types-container">
                             <!-- SUB TYPE 1 CONTAINER -->
                             <p id="wucc">
-                                <h3>-&emsp;Web Usage Consulting Course</h3>
+                                <h3 id="wucc">-&emsp;Web Usage Consulting Course</h3>
                                 <div>
                                     <span>TEST</span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="tutc">
-                                <h3>-&emsp;Technology Usage Tricks Course</h3>
+                                <h3  id="tutc">-&emsp;Technology Usage Tricks Course</h3>
                                 <div>
                                     <span>TEST</span>
                                 </div>
                             </p>
                             <p id="sibc">
-                                <h3>-&emsp;Safe Internet Browsing Course</h3>
+                                <h3 id="sibc">-&emsp;Safe Internet Browsing Course</h3>
                                 <div>
                                     <span>TEST</span>
                                 </div>
@@ -197,7 +199,7 @@
                         <div class="service-sub-types-container">
                             <!-- SUB TYPE 1 CONTAINER -->
                             <p id="ga">
-                                <h3>-&emsp;Google Analytics</h3>
+                                <h3 id="ga">-&emsp;Google Analytics</h3>
                                 <div>
                                     <span><?php echo T_GOOGLE_ANALYTICS; ?></span>
                                 </div>

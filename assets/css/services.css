@@ -31,10 +31,32 @@ hr,h1 {
 
 span {
 	color: rgba(255, 255, 255, 0.55);
-	/* font-family: Calibri-Light; */
 }
 
 .service-sub-types-container {
 	width: 90%;
 	margin: 0 auto;
+}
+
+.blinking {
+	animation: blinking 1s linear forwards;
+}
+
+@keyframes blinking {
+
+	0% { opacity: 1;
+		color: default;
+	}
+	30% {
+		opacity: .5;
+		color: #cbad6c;
+	}
+	50% {
+		opacity: 1;
+		color: default;
+	}
+	100% {
+		opacity: 1;
+		color: #cbad6c;
+	}
 }
