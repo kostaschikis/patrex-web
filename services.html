@@ -1,7 +1,3 @@
-<?php
-    include 'service-texts.php';
-?>
-
 <!DOCTYPE HTML>
 
 <html>
@@ -9,15 +5,15 @@
         <title>PatreX - Services</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="../assets/css/main.css" />
-        <link rel="stylesheet" href="../assets/css/services.css">
-        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/services.css">
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     </head>
 
     <body class="is-preload">
         <header id="header">
             <nav>
-                <a href="../index.php">&#8592; Go to Main Page</a>
+                <a href="../index.html">&#8592; Go to Main Page</a>
             </nav>
         </header>
 
@@ -42,24 +38,26 @@
                             <p id="wd">
                                 <h3>-&emsp;Website Development</h3>
                                 <div>
-                                    <span><?php echo T_WEB_DEV; ?></span>
+                                    <span id="wd-span"></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="ec">
                                 <h3>-&emsp;E-Commerce Development</h3>
-                                <span><?php echo T_ESHOP; ?></span>
+                                <div>
+                                    <span id="ec-span"></span>
+                                </div>
                             </p>
                             <p id="supp">
                                 <h3>-&emsp;Support</h3>
                                 <div>
-                                    <span><?php echo T_SUPPORT; ?></span>
+                                    <span id="supp-span"></span>
                                 </div>
                             </p>
                             <p id="wr">
                                 <h3>-&emsp;Website Renovation</h3>
                                 <div>
-                                    <span><?php echo T_WEB_RENOVATION; ?></span>
+                                    <span id="wr-span"></span>
                                 </div>
                             </p>
                         </div>
@@ -78,14 +76,14 @@
                             <p id="sm">
                                 <h3>-&emsp;Social Media</h3>
                                 <div>
-                                    <span><?php echo T_SOCIAL_MEDIA; ?></span>
+                                    <span id="sm-span"></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="seo">
                                 <h3>-&emsp;SEO</h3>
                                 <div>
-                                    <span><?php echo T_SEO; ?></span>
+                                    <span id="seo-span"></span>
                                 </div>
                             </p>
                         </div>
@@ -104,20 +102,20 @@
                             <p id="ds">
                                 <h3>-&emsp;Digital Strategy</h3>
                                 <div>
-                                    <span><?php echo T_DIGITAL_CONSULTING; ?></span>
+                                    <span id="ds-span"></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="cc">
                                 <h3>-&emsp;Company Coaching</h3>
                                 <div>
-                                    <span><?php echo T_COMPANY_COACHING; ?></span>
+                                    <span id="cc-span"></span>
                                 </div>
                             </p>
                             <p id="is">
                                 <h3>-&emsp;Innovative Solutions</h3>
                                 <div>
-                                    <span><?php echo T_INNOVATIVE_SOLUTIONS; ?></span>
+                                    <span id="is-span"></span>
                                 </div>
                             </p>
                         </div>
@@ -137,20 +135,20 @@
                             <p id="lcid">
                                 <h3>-&emsp;Logo and Corporate Identity Design</h3>
                                 <div>
-                                    <span><?php echo T_LOGO_DESIGN; ?></span>
+                                    <span id="lcid-span"></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
                             <p id="pcsm">
                                 <h3>-&emsp;Package Creation for Social Media</h3>
                                 <div>
-                                    <span><?php echo T_PACKAGE_CREATION; ?></span>
+                                    <span id="pcsm-span"></span>
                                 </div>
                             </p>
                             <p id="bddb">
                                 <h3>-&emsp;Brochure Design and Display Banners</h3>
                                 <div>
-                                    <span><?php echo T_BROCHURE_DESIGN; ?></span>
+                                    <span id="bddb-span"></span>
                                 </div>
                             </p>
                         </div>
@@ -168,20 +166,20 @@
                             <p id="wucc">
                                 <h3>-&emsp;Web Usage Consulting Course</h3>
                                 <div>
-                                    <span><?php echo T_WEB_USAGE_COURSE; ?></span>
+                                    <span id="wucc-span"></span>
                                 </div>
                             </p>
                             <!-- SUB TYPE 2 CONTAINER -->
-                            <p id="tutc">
+                            <p id="diy">
                                 <h3>-&emsp;Computer Basics (DIY) Course</h3>
                                 <div>
-                                    <span><?php echo T_DIY_COURSE; ?></span>
+                                    <span id="diy-span"></span>
                                 </div>
                             </p>
                             <p id="sibc">
                                 <h3>-&emsp;Safe Internet Browsing Course</h3>
                                 <div>
-                                    <span><?php echo T_SAFE_WEB_COURSE; ?></span>
+                                    <span id="sibc-span"></span>
                                 </div>
                             </p>
                         </div>
@@ -199,7 +197,7 @@
                             <p id="ga">
                                 <h3>-&emsp;Google Analytics</h3>
                                 <div>
-                                    <span><?php echo T_GOOGLE_ANALYTICS; ?></span>
+                                    <span id="ga-span"></span>
                                 </div>
                             </p>
                         </div>
@@ -207,5 +205,27 @@
                 </div>
             </section>
         </div>
+
     </body>
+        <script src="assets/js/service-texts.js"></script>
+        <script>
+            window.onload = function() {
+                document.getElementById("wd-span").innerText = T_WD;
+                document.getElementById("ec-span").innerText = T_EC;
+                document.getElementById("supp-span").innerText = T_SUPP;
+                document.getElementById("wr-span").innerText = T_WR;
+                document.getElementById("sm-span").innerText = T_SM;
+                document.getElementById("seo-span").innerHTML = T_SEO;
+                document.getElementById("ds-span").innerHTML = T_DS;
+                document.getElementById("cc-span").innerText = T_CC;
+                document.getElementById("is-span").innerText = T_IS;
+                document.getElementById("lcid-span").innerText = T_LCID;
+                document.getElementById("pcsm-span").innerText = T_PCSM;
+                document.getElementById("bddb-span").innerText = T_BDDB;
+                document.getElementById("wucc-span").innerHTML = T_WUCC;
+                document.getElementById("diy-span").innerHTML = T_DIY;
+                document.getElementById("sibc-span").innerHTML = T_SIBC;
+                document.getElementById("ga-span").innerText = T_GA;
+            }
+        </script>
 </html>
