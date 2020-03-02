@@ -36,6 +36,10 @@ ol, ul {
 	list-style: none;
 }
 
+a {
+	border-bottom: none;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -3886,7 +3890,7 @@ h1.org-name {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #9facbd;
 						}
 
 		}
