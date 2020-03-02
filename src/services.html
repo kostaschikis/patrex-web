@@ -7,7 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="assets/css/services.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+        <link rel="manifest" href="images/icons/site.webmanifest">
+        <!-- Favicon -->
         <script defer src="assets/js/jquery.min.js"></script>
         <script defer src="assets/js/blink.js"></script>
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -16,7 +22,7 @@
     <body class="is-preload">
         <header id="header">
             <nav style="font-size:1.2em;text-align:center;">
-                <a href="index.html"><i class="fas fa-arrow-left"></i>&nbsp;Go back to Main Page</a>
+                <a href="/"><i class="fas fa-arrow-left"></i>&nbsp;Go back to Main Page</a>
             </nav>
         </header>
 
@@ -27,7 +33,7 @@
                     <h1 id="title-heading" class="major">Our Services</h1>
                 </div>
                 <div class="flex-wrapper">
-                    <div id="left" class="services-column">
+                    <div class="services-column">
                         <!-- SERVICE 1 CONTAINER -->
                         <div class="service-container">
                             <!-- SERVICE TITLE CONTAINER -->
@@ -124,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="right" class="services-column">
+                    <div class="services-column">
                         <!-- SERVICE 4 CONTAINER -->
                         <div class="service-container">
                             <!-- SERVICE TITLE CONTAINER -->
@@ -211,7 +217,7 @@
         </div>
 
         <div id="bottom-nav">
-            <a href="index.html"><i class="fas fa-arrow-left"></i>&nbsp;Go back to Main Page</a>
+            <a href="/"><i class="fas fa-arrow-left"></i>&nbsp;Go back to Main Page</a>
         </div>
     </body>
         <script src="assets/js/jquery.min.js"></script>
@@ -219,42 +225,6 @@
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/service-texts.js"></script>
 
-        <script>
-            window.onload = function() {
-                document.getElementById("wd-span").innerText = T_WD;
-                document.getElementById("ec-span").innerText = T_EC;
-                document.getElementById("supp-span").innerText = T_SUPP;
-                document.getElementById("wr-span").innerText = T_WR;
-                document.getElementById("sm-span").innerText = T_SM;
-                document.getElementById("seo-span").innerHTML = T_SEO;
-                document.getElementById("ds-span").innerHTML = T_DS;
-                document.getElementById("cc-span").innerText = T_CC;
-                document.getElementById("is-span").innerText = T_IS;
-                document.getElementById("lcid-span").innerText = T_LCID;
-                document.getElementById("pcsm-span").innerText = T_PCSM;
-                document.getElementById("bddb-span").innerText = T_BDDB;
-                document.getElementById("wucc-span").innerHTML = T_WUCC;
-                document.getElementById("diy-span").innerHTML = T_DIY;
-                document.getElementById("sibc-span").innerHTML = T_SIBC;
-                document.getElementById("ga-span").innerText = T_GA;
-            }
-
-            var nav = document.getElementById('bottom-nav');
-
-            if ($(window).width() <= 1062) {
-                console.log("XAMILA");
-                nav.style.display = "block";
-            } else {
-                console.log("PSILA");
-                nav.style.display = "none";
-            }
-
-            $(window).resize(function(){
-                if ($(window).width() <= 1062) {
-                    nav.style.display = "block";
-                } else {
-                    nav.style.display = "none";
-                }
-            });
-        </script>
+        <script src="assets/js/incl-subservice-texts.js"></script>
+        <script src="assets/js/header-nav-display.js"></script>
 </html>

@@ -80,6 +80,17 @@ h1.org-name {
 	/* color: #FC8D33; */
 }
 
+@media only screen and (max-width: 414px) {
+	.service-element h3 {
+		text-align: center;
+	}
+
+	.service-element > span {
+		margin: 0 auto 0.7rem auto !important;
+		/*margin-bottom: 3rem;*/
+	}
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -167,7 +178,7 @@ h1.org-name {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: #d3d3d3;
 		}
 
 	strong, b {
@@ -3538,7 +3549,8 @@ h1.org-name {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		/*color: rgba(255, 255, 255, 0.15);*/
+		color: #d3d3d3;
 	}
 
 	#header + #wrapper + #footer > .inner {
