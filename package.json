@@ -1,0 +1,26 @@
+{
+  "name": "patrex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KostasXikis/patrex-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KostasXikis/patrex-web/issues"
+  },
+  "homepage": "https://github.com/KostasXikis/patrex-web#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-cssnano": "^2.1.3"
+  }
+}
