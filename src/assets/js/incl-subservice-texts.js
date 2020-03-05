@@ -1,7 +1,7 @@
 window.onload = function() {
     document.getElementById("wd-span").innerText = T_WD;
     document.getElementById("ec-span").innerText = T_EC;
-    document.getElementById("supp-span").innerText = T_SUPP;
+    document.getElementById("supp-span").innerHTML = T_SUPP;
     document.getElementById("wr-span").innerText = T_WR;
     document.getElementById("sm-span").innerText = T_SM;
     document.getElementById("seo-span").innerHTML = T_SEO;
