@@ -1,3 +1,4 @@
+					</div>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -33,7 +34,7 @@
 				<section id="intro" class="wrapper style1 fullscreen fade-up">
 					<div class="inner">
 						<img id="logo-image" src="assets/css/images/patrex-mini-gold.png" alt="logo">
-						<p>Web Development and Renovation | Social Media Consulting | Data Analytics.</p>
+						<h3 id="description-heading">Web Development and Renovation | Social Media Consulting | Tech Courses | Analytics.</h3>
 						<ul class="actions">
 							<li><a href="#ourServices" class="button scrolly">Learn more</a></li>
 						</ul>
@@ -44,8 +45,7 @@
 				<section id="aboutUs" class="wrapper contact-wrapper-style fade-up">
 					<div class="inner">
 						<h2>About Us</h2>
-						<p>We are a team of young passionate people, who develop and innovate with every opportunity and every project. We have an unlimited passion for our job and we work as hard as it takes in order to achieve the best results for our clients. Our experience and teamwork spirit are the keys that make us capable of taking over your projects and give them the value and importance they deserve. We like challenges and we are ready to accomplish from the simplest to the most complex projects. PatreX digital agency works for all company sizes, both B2B and B2C companies.</p>
-					</div>
+						<p id="about-us-p"></p>
 				</section>
 
 				<!-- OUR SERVICES SECTION -->
@@ -216,5 +216,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				window.onload = function() {
+					document.getElementById('about-us-p').innerHTML = EN_TXT_ABOUTUS;
+				}
+			</script>
 	</body>
 </html>
