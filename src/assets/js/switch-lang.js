@@ -1,18 +1,23 @@
-const langEn = document.getElementById('lang-en');
-const langEl = document.getElementById('lang-el');
+$(document).ready(function() {
+    const langEn = document.getElementById('lang-en');
+    const langEl = document.getElementById('lang-el');
 
-if (window.location.href.indexOf("en") > -1) {
-    langEn.style.opacity = 1;
-} else {
-    langEl.style.opacity = 1;
-}
+    // Switch to English
+    langEn.addEventListener('click', function() {
+        console.log('supp');
+        window.location.href = '../en';
+    });
 
-// Switch to English
-langEn.addEventListener('click', function() {
-    window.location.href = '../en';
+    // Swicth to Greek
+    langEl.addEventListener('click', function() {
+        console.log('hey there');
+        window.location.href = '../el';
+    });
+
+    if (window.location.href.indexOf("en") > -1) {
+        langEn.classList.add('activated');
+    } else {
+        langEl.classList.add('activated');
+    }
 });
 
-// Swicth to Greek
-langEl.addEventListener('click', function() {
-    window.location.href = '../el';
-});

@@ -108,8 +108,12 @@ input, select, textarea {
 }
 
 .lang img:hover {
-	opacity: 1;
 	cursor: pointer;
+	opacity: 1;
+}
+
+.activated {
+	opacity: 1 !important;
 }
 
 /* Basic */
