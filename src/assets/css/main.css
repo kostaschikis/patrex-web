@@ -98,7 +98,7 @@ input, select, textarea {
 }
 
 .lang img {
-	opacity: 0.5;
+	opacity: 0.4;
 	width: 1.3rem;
 	margin: 0.3rem;
 	-moz-transition: opacity 0.3s ease;
@@ -3963,6 +3963,11 @@ input, select, textarea {
 				#intro p {
 					font-size: 1em;
 					text-align: center;
+				}
+
+				.lang {
+					left: 50% !important;
+					margin-left: -60px !important;
 				}
 
 			}

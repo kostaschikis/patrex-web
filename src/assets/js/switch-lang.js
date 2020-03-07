@@ -1,9 +1,18 @@
+const langEn = document.getElementById('lang-en');
+const langEl = document.getElementById('lang-el');
+
+if (window.location.href.indexOf("en") > -1) {
+    langEn.style.opacity = 1;
+} else {
+    langEl.style.opacity = 1;
+}
+
 // Switch to English
-const langEn = document.getElementById('lang-en').addEventListener('click', function() {
+langEn.addEventListener('click', function() {
     window.location.href = '../en';
 });
 
 // Swicth to Greek
-const langEl = document.getElementById('lang-el').addEventListener('click', function() {
+langEl.addEventListener('click', function() {
     window.location.href = '../el';
 });
