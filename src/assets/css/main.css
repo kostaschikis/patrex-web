@@ -88,6 +88,34 @@ input, select, textarea {
 	background: rgba(167, 142, 89, 0.486); 
 }
 
+/* Flags */
+.lang {
+	position: absolute !important;
+	right: 0 !important;
+	top: 0 !important;
+	width: auto !important;
+	padding: 2rem !important;
+}
+
+.lang img {
+	opacity: 0.4;
+	width: 1.3rem;
+	margin: 0.3rem;
+	-moz-transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
+	-ms-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+
+.lang img:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.activated {
+	opacity: 1 !important;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3943,6 +3971,11 @@ input, select, textarea {
 				#intro p {
 					font-size: 1em;
 					text-align: center;
+				}
+
+				.lang {
+					left: 50% !important;
+					margin-left: -60px !important;
 				}
 
 			}
