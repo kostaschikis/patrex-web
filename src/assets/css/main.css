@@ -1884,20 +1884,20 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #CDD3D7 !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
-		font-weight: bold;
-		height: calc(4.75em + 2px);
-		letter-spacing: 0.25em;
-		line-height: 4.75em;
+		font-size: 0.8em;
+		/*font-weight: bold;*/
+		/*height: calc(4.75em + 2px);*/
+		letter-spacing: 0.15em;
+		/*line-height: 4.75em;*/
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 1em 3em 1em 3em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		white-space: nowrap;
 	}
 
@@ -3803,10 +3803,11 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			/*color: rgba(255, 255, 255, 0.35);*/
+			color: #9BA7B0;
 			display: block;
 			font-size: 0.7em;
-			font-weight: bold;
+			/*font-weight: bold;*/
 			letter-spacing: 0.1em;
 			line-height: 1.75;
 			outline: 0;

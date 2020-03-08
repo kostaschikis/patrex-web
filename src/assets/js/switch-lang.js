@@ -4,13 +4,11 @@ $(document).ready(function() {
 
     // Switch to English
     langEn.addEventListener('click', function() {
-        console.log('supp');
         window.location.href = '../en';
     });
 
     // Swicth to Greek
     langEl.addEventListener('click', function() {
-        console.log('hey there');
         window.location.href = '../el';
     });
 

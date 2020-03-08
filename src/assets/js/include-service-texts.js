@@ -8,7 +8,7 @@ $(document).ready(function() {
         document.getElementById("seo-span").innerHTML = GR_TXT_SEO;
         document.getElementById("ds-span").innerHTML = GR_TXT_DS;
         document.getElementById("cc-span").innerText = GR_TXT_CC;
-        document.getElementById("is-span").innerText = GR_TXT_IS;
+        document.getElementById("is-span").innerHTML = GR_TXT_IS;
         document.getElementById("lcid-span").innerText = GR_TXT_LCID;
         document.getElementById("pcsm-span").innerText = GR_TXT_PCSM;
         document.getElementById("bddb-span").innerText = GR_TXT_BDDB;
